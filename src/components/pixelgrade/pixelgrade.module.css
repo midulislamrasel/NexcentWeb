@@ -1,0 +1,32 @@
+.pixelgrade_sectino {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pixelgrade_title {
+  color: var(--neutraldgrey);
+  font-family: var(--heading-headline-1-font-family);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+.pixelgrade_pera {
+  color: var(--neutralgrey);
+  font-family: var(--heading-headline-1-font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 32px;
+  margin-right: 20px;
+}
+
+@media (max-width: 790px) {
+  .pixelgrade_sectino {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+}

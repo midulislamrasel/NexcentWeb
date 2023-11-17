@@ -1,0 +1,64 @@
+.Hero {
+  background: var(--neutralsilver);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  z-index: 4;
+}
+
+.top__content p {
+  font-family: var(--body-medium-body-1-font-family);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px;
+}
+
+.top__content p:first-child {
+  color: var(--neutraldgrey);
+}
+.top__content p:last-child {
+  color: var(--brandprimary);
+}
+
+.bottom__content {
+  padding-top: 16px;
+}
+
+.bottom__content p {
+  color: var(--neutralgrey);
+  font-family: var(--body-medium-body-1-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 32px;
+}
+
+@media(max-width:1024px){
+  .Hero__main{
+    padding: 10px;
+  }
+}
+
+@media(max-width:375px) {
+  .top__content p {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+  }
+  
+  .bottom__content {
+    padding-top: 8px;
+  }
+  
+  .bottom__content p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 32px;
+  }
+}
