@@ -45,3 +45,15 @@
   line-height: 20px;
   margin-top: 8px;
 }
+@media (max-width: 790px) {
+  .card_section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+
+  .card {
+    margin-top: 20px;
+  }
+}

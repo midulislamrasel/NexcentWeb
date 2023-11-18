@@ -19,7 +19,10 @@ import CR_Logo6 from "@/assets/images/customers/CR_Logo6.png";
 import card_Icon from "@/assets/images/Icon.png";
 import card_Icon2 from "@/assets/images/Icon2.png";
 import card_Icon3 from "@/assets/images/Icon3.png";
-
+//=========Makting Image========
+import markting_Img from "@/assets/images/image.png";
+import markting_Img2 from "@/assets/images/image2.png";
+import markting_Img3 from "@/assets/images/image3.png";
 // =====Export=====
 export {
   LogoLG,
@@ -39,4 +42,7 @@ export {
   card_Icon,
   card_Icon2,
   card_Icon3,
+  markting_Img,
+  markting_Img2,
+  markting_Img3,
 };
