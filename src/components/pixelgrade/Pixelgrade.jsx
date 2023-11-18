@@ -8,7 +8,7 @@ import Frame from "@/assets/images/Frame.png";
 Frame;
 function Pixelgrade() {
   return (
-    <div className="container">
+    <div className="container" style={{ marginTop: "40px" }}>
       <div className={styles.pixelgrade_sectino}>
         <div className={styles.pixelgrade_Iamge}>
           <Image src={Frame} alt="pixelgrade_image" />
@@ -28,7 +28,7 @@ function Pixelgrade() {
           <ButtonDefault
             type="button"
             label="Learn More"
-            background="var( --actionsuccess)"
+            background="var(--brandprimary)"
             padding="14px 32px"
           ></ButtonDefault>
         </div>

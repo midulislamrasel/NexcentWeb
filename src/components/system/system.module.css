@@ -1,0 +1,53 @@
+.system_header {
+  color: var(--neutral-d-grey, #4d4d4d);
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+}
+.system_pera {
+  color: var(--neutral-grey, #717171);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.card_section {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  text-align: center;
+  width: 299px;
+  height: auto;
+  padding: 24px 32px;
+  border-radius: 8px;
+  background: var(--neutral-white, #fff);
+  box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
+}
+.card_title {
+  color: var(--neutral-d-grey, #4d4d4d);
+  text-align: center;
+
+  /* Heading/Headline 3 */
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 128.571% */
+}
+.card_pera {
+  color: var(--neutral-grey, #717171);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  margin-top: 8px;
+}

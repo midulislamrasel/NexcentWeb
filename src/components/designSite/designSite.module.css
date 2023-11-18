@@ -1,9 +1,9 @@
-.pixelgrade_sectino {
+.design_sectino {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.pixelgrade_title {
+.design_title {
   color: var(--neutraldgrey);
   font-family: var(--heading-headline-1-font-family);
   font-size: 36px;
@@ -12,7 +12,7 @@
   line-height: 44px;
   margin-bottom: 16px;
 }
-.pixelgrade_pera {
+.design_pera {
   color: var(--neutralgrey);
   font-family: var(--heading-headline-1-font-family);
   font-size: 14px;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 790px) {
-  .pixelgrade_sectino {
+  .design_sectino {
     display: flex;
     flex-direction: column;
     padding: 30px;
