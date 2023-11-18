@@ -3,31 +3,27 @@
   justify-content: space-between;
 }
 .rating_Header {
-  color: var(--neutral-d-grey, #4d4d4d);
-  font-family: Inter;
+  color: var(--neutraldgrey);
+  font-family: var(--body-medium-body-4-font-family);
   font-size: 36px;
-  font-style: normal;
   font-weight: 600;
   line-height: 44px;
 }
 .rating_Header2 {
-  color: var(--brand-primary, #4caf4f);
-  font-family: Inter;
+  color: var(--brandprimary);
+  font-family: var(--body-medium-body-4-font-family);
   font-size: 36px;
-  font-style: normal;
   font-weight: 600;
   line-height: 44px;
   margin-bottom: 8px;
 }
 .rating_pera {
-  color: var(--text-gray-900, #18191f);
+  color: var(--text-gray-900);
 
-  /* Body/Regular/Body 2 */
-  font-family: Inter;
+  font-family: var(--body-medium-body-4-font-family);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
 }
 .icon {
   display: grid;
@@ -41,18 +37,16 @@
   column-gap: 16px;
 }
 .icon_title {
-  color: var(--neutral-d-grey, #4d4d4d);
-  font-family: Inter;
+  color: var(--neutraldgrey);
+  font-family: var(--body-medium-body-4-font-family);
   font-size: 28px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px;
 }
 .icon_pera {
-  color: var(--neutral-grey, #717171);
-  font-family: Inter;
+  color: var(--neutralgrey);
+  font-family: var(--body-medium-body-4-font-family);
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px;
 }
