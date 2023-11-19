@@ -1,11 +1,41 @@
+.marketing_section {
+  display: flex;
+  gap: 25px;
+}
 .markting_Img_card {
   position: relative;
 }
 .card {
   position: absolute;
-  width: 317;
-  height: 176;
-  top: 20%;
-  left: 20%;
+
+  padding: 16px;
+  background-color: var(--neutralsilver);
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
+  top: 220px;
+  left: 25px;
   z-index: 22;
+  width: 317px;
+  border-radius: 8px;
+}
+.abced {
+  width: 17;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.card p {
+  color: var(--neutral-grey, #717171);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+@media (max-width: 990px) {
+  .marketing_section {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 130px;
+  }
 }
