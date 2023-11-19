@@ -1,6 +1,10 @@
 .marketing_section {
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 130px;
+  justify-content: center;
 }
 .markting_Img_card {
   position: relative;
@@ -35,7 +39,10 @@
 @media (max-width: 990px) {
   .marketing_section {
     display: flex;
+    gap: 25px;
     flex-wrap: wrap;
+    align-items: center;
     row-gap: 130px;
+    justify-content: center;
   }
 }

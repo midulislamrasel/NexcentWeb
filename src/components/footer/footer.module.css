@@ -12,6 +12,25 @@
 .Logo_Icon_section {
   width: 30%;
 }
+.icon_section {
+  display: flex;
+  column-gap: 16px;
+}
+.footer_menu_section {
+  width: 636px;
+  display: flex;
+  column-gap: 30px;
+}
+.footer_menu {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  justify-content: space-between;
+}
+.footer_copyRight {
+  margin: 40px 0px;
+}
 .footer_copyRight p,
 .footer_menu p {
   color: var(--neutralsilver);
@@ -31,11 +50,21 @@
 }
 
 /* ================= */
-@media only screen and (min-width: 360px) {
-  /* .footer {
+@media only screen and (max-width: 660px) {
+  .footer {
     display: flex;
     flex-direction: column-reverse;
-  } */
+  }
+  .responsive_footer {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .footer_copyRight {
+    margin-top: 20px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
