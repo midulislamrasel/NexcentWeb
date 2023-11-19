@@ -8,7 +8,7 @@ function Footer() {
     <div className={Styles.footer_section}>
       <div className="container">
         <div className={Styles.footer}>
-          <div>
+          <div className={Styles.Image_Icon_Responsive}>
             <div>
               <Image src={Logo} alt="Logo_Img" />
             </div>
@@ -122,7 +122,7 @@ function Footer() {
               <p>Privacy policy</p>
               <p>Status</p>
             </div>
-            <div className={Styles.footer_menu} style={{ width: "40%" }}>
+            <div className={Styles.footer_menu_serch}>
               <h2 className={Styles.footer_header_text}>Stay up to data</h2>
               {/* <input type="text" id="lname" name="lname" /> */}
             </div>
