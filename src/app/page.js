@@ -23,3 +23,6 @@ const Home = () => {
 };
 
 export default Home;
+
+// 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;
+// git remote set-url origin https://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@github.com/midulislamrasel/<repo>
